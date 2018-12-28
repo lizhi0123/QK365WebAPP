@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     Home Test
+    <br>
+    <br>
+    <router-link to= "/helloworld">
+        Helloworld 
+    </router-link>
   </div>
 </template>
 
@@ -10,6 +15,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="stylus" scoped>
 
 </style>
