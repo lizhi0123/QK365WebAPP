@@ -17,13 +17,19 @@ export default {
 
 <style lang="stylus"  scoped>
 .header
-    display: flex
-    background: #FC7F08FF
-    margin-top: .0rem
-    margin-left: .0rem
-    height: .86rem
+    position: fixed
+    left:0
+    top:0
+    height:.84rem
     width: 100%
-    position: relative 
+    z-index: 9999
+    // display: flex
+    background: #FC7F08FF
+    // margin-top: .0rem
+    // margin-left: .0rem
+    // height: .86rem
+    // width: 100%
+    // position: relative 
     .header-left
         // float: left
         margin-top: .2rem
