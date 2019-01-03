@@ -47,19 +47,22 @@ export default {
     // this.clientHeight = '${document.documentElement.clientHeight}'
     this.clientHeight = document.documentElement.clientHeight;
     this.clientWidth = document.documentElement.clientWidth;
-    window.onresize = function temp() {
-        this.clientHeight = document.documentElement.clientHeight;
-        this.clientWidth =  document.documentElement.clientWidth;
-      };
+     this.$refs.app.style.height = this.clientHeight+'px';
+      this.$refs.app.style.width = this.clientWidth+'px';
+
+    // window.onresize = function temp() {
+    //     this.clientHeight = document.documentElement.clientHeight;
+    //     this.clientWidth =  document.documentElement.clientWidth;
+    //   };
   },
    watch: {
-      // 如果 `clientHeight` 发生改变，这个函数就会运行
-      clientHeight: function () {
-        this.changeClientHeightFixed(this.clientHeight);
-      },
-      clientWidth: function () {
-        this.changeClientWidthFixed(this.clientWidth);
-      }
+      // // 如果 `clientHeight` 发生改变，这个函数就会运行
+      // clientHeight: function () {
+      //   this.changeClientHeightFixed(this.clientHeight);
+      // },
+      // clientWidth: function () {
+      //   this.changeClientWidthFixed(this.clientWidth);
+      // }
     },
     methods:{
       changeClientHeightFixed(clientHeight){ 
