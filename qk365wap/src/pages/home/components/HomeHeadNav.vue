@@ -3,6 +3,9 @@
         <div class="header-left iconfont">
             &#xe679; 返回 
         </div>
+        <div class="homeNav-img-div">
+            <img style="width: 100%; height:100%; top: 0; left: 0;" src="@/assets/images/home_qkLogo.png">
+        </div>
     </div>
     
 </template>
@@ -22,6 +25,7 @@ export default {
     left:0
     top:0
     height:$navHeight
+    line-height:$navHeight
     width: 100%
     z-index: 9999
     background: #33CC00FF
@@ -38,4 +42,11 @@ export default {
         text-align: center
         vertical-align: middle
         background: #21FE06FF
+    .homeNav-img-div
+        width .7rem
+        height .25rem
+        // text-align center
+        background-color red
+        margin: 0 auto
+                  
 </style>
