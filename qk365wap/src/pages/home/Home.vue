@@ -2,6 +2,7 @@
  <div class="container-warp" ref="containerWarp">
     <home-head-nav> </home-head-nav>
     <div class="container-scroll">
+      <home-swiper></home-swiper>
          <p><br><br><br>Home Test 1<br><br><br><br><br><br> </p>
          <p><br><br><br>Home Test 2<br><br><br><br><br><br> </p>
          <p><br><br><br>Home Test 3<br><br><br><br><br><br> </p>
@@ -24,10 +25,14 @@
 
 <script>
     import HomeHeadNav from './components/HomeHeadNav.vue'
+    import VueAwesomeSwiper from 'vue-awesome-swiper'
+    import HomeSwiper from './components/HomeSwiper.vue'
+
 export default {
   name: 'Home',
   components: {
-    HomeHeadNav
+    HomeHeadNav,
+    HomeSwiper
   },
   data (){
     return {
