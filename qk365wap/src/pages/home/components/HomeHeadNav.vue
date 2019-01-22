@@ -1,7 +1,7 @@
 <template>
     <div class="header">
-        <div class="header-left">
-            <div class="header-left-city">
+        <div class="header-left" @click="cityClick">
+            <div class="header-left-city" >
                 上海 
             </div>
              <div class="iconfont header-left-img">
@@ -18,7 +18,12 @@
 
 <script >
 export default {
-  name: 'HomeHeadNav'
+  name: 'HomeHeadNav',
+  methods: {
+    cityClick () {
+        alert('上海点击了');
+    }
+  }
 }
 
     
