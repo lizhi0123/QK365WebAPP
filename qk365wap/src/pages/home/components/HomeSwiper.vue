@@ -1,27 +1,24 @@
 <template>
-  <!-- <div class="wrapper"> -->
-    <!-- <swiper :options="swiperOption" class="wrapper">
-      <swiper-slide >
-        <img class="swiper-img" src="http://img1.qunarzz.com/piao/fusion/1812/e0/7aed5dde53dabe02.jpg_750x200_9b7a65fd.jpg" />
-    </swiper-slide>
-    <swiper-slide >
-        <img class="swiper-img" src="http://img1.qunarzz.com/piao/fusion/1811/7c/8e5c4ab8ee8b7402.jpg_750x200_dd7a38dd.jpg" />
-    </swiper-slide>
-          <div class="swiper-pagination" slot="pagination"></div>
-    </swiper> -->
-  <!-- </div> -->
   <swiper :options="swiperOption" >
         <swiper-slide class="swiper-slide">
-          <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/46/CgoKaFwtYpOAacw4AAHDBhOFINE421.png" />
+          <a href="http://www.baidu.com">
+            <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/46/CgoKaFwtYpOAacw4AAHDBhOFINE421.png" />
+          </a>
         </swiper-slide>
         <swiper-slide class="swiper-slide">
-          <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/7D/CC/CgoKZ1wnSqyAAN8XAAH8uyVWIuY925.jpg" />
+          <a href="http://www.baidu.com">
+            <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/7D/CC/CgoKZ1wnSqyAAN8XAAH8uyVWIuY925.jpg" />
+          </a>
         </swiper-slide>
         <swiper-slide class="swiper-slide">
-          <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/E3/CgoKaFwt4w6ACZaZAAHu3p28mXs975.jpg" />
+          <a href="http://www.baidu.com">
+            <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/E3/CgoKaFwt4w6ACZaZAAHu3p28mXs975.jpg" />
+          </a>
         </swiper-slide>
         <swiper-slide class="swiper-slide">
-          <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/55/CgoKaFwtdL-AW6xhAAP3Jr8FZAo947.jpg" />
+          <a href="http://www.baidu.com">
+            <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/55/CgoKaFwtdL-AW6xhAAP3Jr8FZAo947.jpg" />
+          </a>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
