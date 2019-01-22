@@ -12,17 +12,17 @@
   <!-- </div> -->
   <swiper :options="swiperOption" >
         <swiper-slide class="swiper-slide">
-          <img class="swiper-img" src="http://img1.qunarzz.com/piao/fusion/1812/e0/7aed5dde53dabe02.jpg_750x200_9b7a65fd.jpg" />
+          <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/46/CgoKaFwtYpOAacw4AAHDBhOFINE421.png" />
         </swiper-slide>
-        <swiper-slide>Slide 2</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        <swiper-slide>Slide 4</swiper-slide>
-        <swiper-slide>Slide 5</swiper-slide>
-        <swiper-slide>Slide 6</swiper-slide>
-        <swiper-slide>Slide 7</swiper-slide>
-        <swiper-slide>Slide 8</swiper-slide>
-        <swiper-slide>Slide 9</swiper-slide>
-        <swiper-slide>Slide 10</swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/7D/CC/CgoKZ1wnSqyAAN8XAAH8uyVWIuY925.jpg" />
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/E3/CgoKaFwt4w6ACZaZAAHu3p28mXs975.jpg" />
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/55/CgoKaFwtdL-AW6xhAAP3Jr8FZAo947.jpg" />
+        </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
 </template>
@@ -50,7 +50,7 @@ export default {
     position:relative;
     width: 100%
     height: 0
-    padding-bottom: 31.25%
+    padding-bottom: 45%
     background-color: red
     .swiper-img
       position:absolute;
