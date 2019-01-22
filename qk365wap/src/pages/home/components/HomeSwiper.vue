@@ -1,22 +1,22 @@
 <template>
   <swiper :options="swiperOption" >
         <swiper-slide class="swiper-slide">
-          <a href="http://www.baidu.com">
+          <a href="https://i.qk365.com/group/index?src=APP">
             <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/46/CgoKaFwtYpOAacw4AAHDBhOFINE421.png" />
           </a>
         </swiper-slide>
         <swiper-slide class="swiper-slide">
-          <a href="http://www.baidu.com">
+          <a href="https://i.qk365.com/group/index?src=APP">
             <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/7D/CC/CgoKZ1wnSqyAAN8XAAH8uyVWIuY925.jpg" />
           </a>
         </swiper-slide>
         <swiper-slide class="swiper-slide">
-          <a href="http://www.baidu.com">
+          <a href="https://i.qk365.com/group/index?src=APP">
             <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/E3/CgoKaFwt4w6ACZaZAAHu3p28mXs975.jpg" />
           </a>
         </swiper-slide>
         <swiper-slide class="swiper-slide">
-          <a href="http://www.baidu.com">
+          <a href="https://i.qk365.com/group/index?src=APP">
             <img class="swiper-img" src="http://oss-wuxi.qk365.com/qingkepic/M00/82/55/CgoKaFwtdL-AW6xhAAP3Jr8FZAo947.jpg" />
           </a>
         </swiper-slide>

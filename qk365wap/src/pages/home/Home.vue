@@ -3,15 +3,17 @@
     <home-head-nav> </home-head-nav>
     <div class="container-scroll">
       <home-swiper></home-swiper>
-         <p><br><br><br>Home Test 1<br><br><br><br><br><br> </p>
-         <p><br><br><br>Home Test 2<br><br><br><br><br><br> </p>
-         <p><br><br><br>Home Test 3<br><br><br><br><br><br> </p>
-         <p><br><br><br>Home Test 4<br><br><br><br><br><br> </p>
-         <p><br><br><br>Home Test 5<br><br><br><br><br><br> </p>
-         <p><br><br><br>Home Test 6<br><br><br><br><br><br> </p>
-         <p><br><br><br>Home Test 7<br><br><br><br><br><br> </p>
-         <p><br><br><br>Home Test 8<br><br><br><br><br><br> </p>
-         <p><br><br><br>Home Test 9<br><br><br><br><br><br> </p>
+      <home-icons></home-icons>
+      <div class="divSpace"> </div>
+     <p>Home Test 1<br><br><br><br><br><br> </p>
+     <p><br><br><br>Home Test 2<br><br><br><br><br><br> </p>
+     <p><br><br><br>Home Test 3<br><br><br><br><br><br> </p>
+     <p><br><br><br>Home Test 4<br><br><br><br><br><br> </p>
+     <p><br><br><br>Home Test 5<br><br><br><br><br><br> </p>
+     <p><br><br><br>Home Test 6<br><br><br><br><br><br> </p>
+     <p><br><br><br>Home Test 7<br><br><br><br><br><br> </p>
+     <p><br><br><br>Home Test 8<br><br><br><br><br><br> </p>
+     <p><br><br><br>Home Test 9<br><br><br><br><br><br> </p>
 
         Home Test
         <br>
@@ -31,12 +33,14 @@
     import HomeHeadNav from './components/HomeHeadNav.vue'
     import VueAwesomeSwiper from 'vue-awesome-swiper'
     import HomeSwiper from './components/HomeSwiper.vue'
+    import HomeIcons from './components/HomeIcons.vue'
 
 export default {
   name: 'Home',
   components: {
     HomeHeadNav,
-    HomeSwiper
+    HomeSwiper,
+    HomeIcons
   },
   data (){
     return {
@@ -68,4 +72,8 @@ export default {
         bottom: 0rem
         left: 0rem
         right: 0rem
+        .divSpace
+          width 100%
+          height 0.2rem
+          background-color lightgray
 </style>
