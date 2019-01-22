@@ -42,10 +42,10 @@ export default {
   },
   mounted (){
     // this.clientHeight = '${document.documentElement.clientHeight}'
-    this.clientHeight = document.documentElement.clientHeight;
-    this.clientWidth = document.documentElement.clientWidth;
-     this.$refs.containerWarp.style.height = this.clientHeight+'px';
-      this.$refs.containerWarp.style.width = this.clientWidth+'px';
+    // this.clientHeight = document.documentElement.clientHeight;
+    // this.clientWidth = document.documentElement.clientWidth;
+    //  this.$refs.containerWarp.style.height = this.clientHeight+'px';
+    //   this.$refs.containerWarp.style.width = this.clientWidth+'px';
 
     // window.onresize = function temp() {
     //     this.clientHeight = document.documentElement.clientHeight;
@@ -81,7 +81,7 @@ export default {
 .container-warp
     width: 100%
     height: 100%
-    overflow: hidden
+    // overflow: hidden
     position: relative
     background-color: $bgColor
     color: $darkTextColor
@@ -91,5 +91,5 @@ export default {
         bottom: 0rem
         left: 0rem
         right: 0rem
-        overflow-y: scroll
+        // overflow-y: scroll
 </style>

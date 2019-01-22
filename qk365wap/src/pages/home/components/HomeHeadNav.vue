@@ -36,6 +36,7 @@ $headerCityWidth = 0.8rem
     line-height: $navHeight;
     z-index: 9999;
     border-bottom: .01rem solid #e5e5e5
+    background-color: white
 
     .header-left 
         position absolute
