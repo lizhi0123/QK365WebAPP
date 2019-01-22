@@ -5,18 +5,12 @@
       <home-swiper></home-swiper>
       <home-icons></home-icons>
       <div class="divSpace"> </div>
+      <home-hot-rooms></home-hot-rooms>
      <p>Home Test 1<br><br><br><br><br><br> </p>
      <p><br><br><br>Home Test 2<br><br><br><br><br><br> </p>
      <p><br><br><br>Home Test 3<br><br><br><br><br><br> </p>
      <p><br><br><br>Home Test 4<br><br><br><br><br><br> </p>
-     <p><br><br><br>Home Test 5<br><br><br><br><br><br> </p>
-     <p><br><br><br>Home Test 6<br><br><br><br><br><br> </p>
-     <p><br><br><br>Home Test 7<br><br><br><br><br><br> </p>
-     <p><br><br><br>Home Test 8<br><br><br><br><br><br> </p>
-     <p><br><br><br>Home Test 9<br><br><br><br><br><br> </p>
 
-        Home Test
-        <br>
         <br>
         <router-link to= "/helloworld">
             Helloworld 
@@ -34,13 +28,15 @@
     import VueAwesomeSwiper from 'vue-awesome-swiper'
     import HomeSwiper from './components/HomeSwiper.vue'
     import HomeIcons from './components/HomeIcons.vue'
+    import HomeHotRooms from './components/HomeHotRooms.vue'
 
 export default {
   name: 'Home',
   components: {
     HomeHeadNav,
     HomeSwiper,
-    HomeIcons
+    HomeIcons,
+    HomeHotRooms
   },
   data (){
     return {
