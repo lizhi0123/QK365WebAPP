@@ -3,67 +3,12 @@
         <div class="topSpace">
         </div>
         <div class="iconContent">
-            <div class="icon">
+            <div class="icon" v-for="iconItem of iconList" :key="iconItem.id">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">{{iconItem.title}}</p>
             </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">账单查询</p>
-            </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">我要开门</p>
-            </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">扫一扫</p>
-            </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">青客优选</p>
-            </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">我要托管</p>
-            </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">电费查询</p>
-            </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">在线报修</p>
-            </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">优惠券</p>
-            </div>
-            <div class="icon">
-                <div class="icon-img">
-                    <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
-                </div>
-                <p class="icon-desc">老带新</p>
-            </div>
-
         </div>
         
     </div>
@@ -72,7 +17,46 @@
 
 <script>
 export default {
-  name: 'HomeIcons'
+  name: 'HomeIcons',
+  props: {
+    list: Array
+  },
+  data () {
+    return {
+        iconList: [{
+            id: '001',
+            title: '标题1'
+        },
+        {
+            id: '002',
+            title: '标题2'
+        },{
+            id: '003',
+            title: '标题3'
+        },
+        {
+            id: '004',
+            title: '标题4'
+        },{
+            id: '005',
+            title: '标题5'
+        },
+        {
+            id: '006',
+            title: '标题6'
+        },{
+            id: '007',
+            title: '标题7'
+        },
+        {
+            id: '008',
+            title: '标题8'
+        }]
+    }
+  },
+  computed: {
+
+  }
 }
 </script>
 

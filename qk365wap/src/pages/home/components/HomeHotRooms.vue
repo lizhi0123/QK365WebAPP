@@ -6,7 +6,7 @@
             <div class="topText-detail">青客，陪你开始与这座城市的故事</div>
         </div>
         <!-- 列表 -->
-        <div class="aRoom" v-for="roomItem of iconList">
+        <div class="aRoom" v-for="roomItem of iconList" :key="roomItem.id">
             <img class="roomList-img" src="http://www.qk365.com/images/noPic_Big0.jpg" />
             <div class="aRoom_title">{{roomItem.title}}
             </div>
