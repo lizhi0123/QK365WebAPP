@@ -6,29 +6,53 @@
             <div class="topText-detail">青客，陪你开始与这座城市的故事</div>
         </div>
         <!-- 列表 -->
-        <div class="aRoom">
+        <div class="aRoom" v-for="roomItem of iconList">
             <img class="roomList-img" src="http://www.qk365.com/images/noPic_Big0.jpg" />
-            <div class="aRoom_title">
-             宝山区-罗店-宝欣苑一村 一室一厅 大厨房   
+            <div class="aRoom_title">{{roomItem.title}}
             </div>
             <div class="aRoom_bottomLine">
             </div>
         </div>
-        <div class="aRoom">
-            <img class="roomList-img" src="http://www.qk365.com/images/noPic_Big0.jpg" />
-            <div class="aRoom_title">
-             宝山区-罗店-宝欣苑一村 一室一厅 大厨房   
-            </div>
-            <div class="aRoom_bottomLine">
-            </div>
-        </div>
+
     </div>
 
 </template>
 
 <script>
 export default {
-  name: 'HomeHotRooms'
+  name: 'HomeHotRooms',
+  props: {
+    list: Array
+  },
+  data () {
+    return {
+        iconList: [{
+            id: '001',
+            title: '标题名称1111'
+        },
+        {
+            id: '002',
+            title: '标题名称222'
+        },{
+            id: '003',
+            title: '标题名称3333'
+        },
+        {
+            id: '004',
+            title: '标题名称4444'
+        },{
+            id: '005',
+            title: '标题名称5555'
+        },
+        {
+            id: '006',
+            title: '标题名称66666'
+        }]
+    }
+  },
+  computed: {
+
+  }
 }
 </script>
 
