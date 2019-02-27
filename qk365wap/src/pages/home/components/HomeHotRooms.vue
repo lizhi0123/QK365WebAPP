@@ -1,15 +1,26 @@
 <template>
     <div >
-        <div class="top">
-            <div class="topContent">
-                <div class="topGreen"></div>
-                <div class="topText">
-                   <p class="topText-title"> 热门房源 </p>
-                   <p class="topText-detail">青客，陪你开始与这座城市的故事</p>
-                </div>
+        <div class="topContent">
+            <div class="topGreen"></div>
+            <div class="topText-title"> 热门房源 </div>
+            <div class="topText-detail">青客，陪你开始与这座城市的故事</div>
+        </div>
+        <!-- 列表 -->
+        <div class="aRoom">
+            <img class="roomList-img" src="http://www.qk365.com/images/noPic_Big0.jpg" />
+            <div class="aRoom_title">
+             宝山区-罗店-宝欣苑一村 一室一厅 大厨房   
             </div>
-            
-        
+            <div class="aRoom_bottomLine">
+            </div>
+        </div>
+        <div class="aRoom">
+            <img class="roomList-img" src="http://www.qk365.com/images/noPic_Big0.jpg" />
+            <div class="aRoom_title">
+             宝山区-罗店-宝欣苑一村 一室一厅 大厨房   
+            </div>
+            <div class="aRoom_bottomLine">
+            </div>
         </div>
     </div>
 
@@ -22,54 +33,58 @@ export default {
 </script>
 
 <style lang="stylus" scoped="">
-.top
-    position relative
-    // float left
-    width 100%
-    height: 1.5rem
-    line-height 1.5rem
-    background-color: red
-    .topContent
-        position absolute
-        top: 0
-        left: 0
-        bottom: 0
-        right: 0
-        // width:100%
-        // height: 1.5rem
-        // line-height 1.5rem
-        // background-color: yellow
+.topContent
+    left:0;
+    right: 0
+    height:1.2rem
+    .topGreen
+        position:relative;
+        left:0;
+        top:0.3rem;
+        width: 0.1rem
+        height:0.3rem;
+        line-height: 0.3rem
+        background-color:green;
+    .topText-title
+        position: relative;
+        left:0.2rem
+        top: -0.1rem;
+        height:0.5rem
+        line-height 0.5rem
+    .topText-detail
+        position:relative
+        left:0.2rem
+        top:-0.1rem
+        height:0.5rem
+        line-height 0.5rem
+        font-size 8pt;
+        color: darkgray;
+.aRoom
+    position:relative;
+    width:100%
+    height:2.5rem;
+    .roomList-img
+        padding:0.2rem;
+        left:0;
+        top:0;
+        width: 2rem
+        height:2rem
+    .aRoom_title
+        position: relative
+        left:2.5rem;
+        top:-2rem;
+        width: 5rem
+        height:1rem
+    .aRoom_bottomLine
+        position:relative;
+        left:0
+        right:0;
+        top:-1rem;
+        height:0.05rem;
+        background-color:lightgray;
         
-        .topGreen
-            position: absolute;
-            width: 0.12rem;
-            height: 0.4rem;
-            margin: auto; 
-            top: 0.3rem; 
-            left: 0; 
-            background-color green
-        .topText
-            position absolute
-            width:100%
-            height:100%
-            margin-left .18rem
-            .topText-title
-                position absolute
-                top: 0.3rem
-                width: 100%
-                left: 0
-                height: 0.5rem
-                line-height 0.5rem
-            .topText-detail
-                position absolute
-                left:0
-                top:0.8rem
-                bottom 0
-                right 0
-                height 0.4rem
-                line-height 0.4rem
-                font-size 10px
-                color: #999999
-        
+    
+    
+      
 
 </style>

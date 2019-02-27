@@ -63,7 +63,7 @@ export default {
     background-color: $bgColor
     color: $darkTextColor
     .container-scroll
-        position: absolute
+        // position: absolute
         top: $navHeight
         bottom: 0rem
         left: 0rem

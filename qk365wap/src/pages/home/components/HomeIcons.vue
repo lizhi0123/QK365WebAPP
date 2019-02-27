@@ -13,55 +13,55 @@
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">账单查询</p>
             </div>
             <div class="icon">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">我要开门</p>
             </div>
             <div class="icon">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">扫一扫</p>
             </div>
             <div class="icon">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">青客优选</p>
             </div>
             <div class="icon">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">我要托管</p>
             </div>
             <div class="icon">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">电费查询</p>
             </div>
             <div class="icon">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">在线报修</p>
             </div>
             <div class="icon">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">优惠券</p>
             </div>
             <div class="icon">
                 <div class="icon-img">
                     <img class="icon-img-content" src="http://oss-wuxi.qk365.com/qingkepic/M00/73/45/CgoKaFtpK1uAHQiPAAAMPSqyXRU977.png" />
                 </div>
-                <p class="icon-desc">我要租房</p>
+                <p class="icon-desc">老带新</p>
             </div>
 
         </div>
