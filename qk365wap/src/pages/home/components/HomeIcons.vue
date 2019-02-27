@@ -72,7 +72,7 @@
 
 <script>
 export default {
-  name: 'HomeSwiper'
+  name: 'HomeIcons'
 }
 </script>
 

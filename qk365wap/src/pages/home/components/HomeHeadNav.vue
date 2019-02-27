@@ -35,6 +35,7 @@ $headerCityWidth = 0.8rem
 
 .header 
     // position: fixed;
+    position: relative;
     width: 100%;
     height:$navHeight;
     line-height:$navHeight;
