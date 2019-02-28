@@ -59,10 +59,11 @@ export default {
         // axios.get('http://v.juhe.cn/toutiao/index?type=top&key=f1db1cefce44c93b2549b592a7fe6039')
         //   .then(this.getHomeInfoSucc);
 
-          var data = {type: 'top',
+          var param = {type: 'top',
           key:"f1db1cefce44c93b2549b592a7fe6039"};
 // http://v.juhe.cn/toutiao/index
-          axios.get('/toutiao/index').then(this.getHomeInfoSucc);
+          axios.get('/toutiao/index',{ params: param }
+          ).then(this.getHomeInfoSucc);
     },
     getHomeInfoSucc (res) {
       console.log("11111111111");
