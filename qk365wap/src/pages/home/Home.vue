@@ -5,7 +5,7 @@
       <home-swiper></home-swiper>
       <home-icons></home-icons>
       <div class="divSpace"> </div>
-      <home-hot-rooms></home-hot-rooms>
+      <home-hot-rooms :list = "newsList"></home-hot-rooms>
      <p>Home Test 1<br><br><br><br><br><br> </p>
      <p><br><br><br>Home Test 2<br><br><br><br><br><br> </p>
      <p><br><br><br>Home Test 3<br><br><br><br><br><br> </p>
@@ -64,19 +64,10 @@ export default {
     getHomeInfoSucc (res) {
       res = res.data
       var reason = res.reason;
-      console.log("reason reason");
-      console.log(reason);
-      
       var result = res.result;
-      
-
       var resultData = result.data;
-
-       console.log("resultData resultData");
       console.log(resultData);
-
       this.newsList = resultData;
-      
     }
   }
 }
