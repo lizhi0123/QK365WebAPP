@@ -24,6 +24,9 @@
 </template>
 
 <script>
+    import axios from 'axios'
+    import qs from 'qs'
+
     import HomeHeadNav from './components/HomeHeadNav.vue'
     import VueAwesomeSwiper from 'vue-awesome-swiper'
     import HomeSwiper from './components/HomeSwiper.vue'
@@ -45,12 +48,35 @@ export default {
     }
   },
   mounted (){
-
+    this.getHomeInfo()
   },
    watch: {
 
     },
     methods:{
+       getHomeInfo () {
+
+        // axios.get('http://v.juhe.cn/toutiao/index?type=top&key=f1db1cefce44c93b2549b592a7fe6039')
+        //   .then(this.getHomeInfoSucc);
+
+          var data = {type: 'top',
+          key:"f1db1cefce44c93b2549b592a7fe6039"};
+// http://v.juhe.cn/toutiao/index
+          axios.get('/toutiao/index').then(this.getHomeInfoSucc);
+    },
+    getHomeInfoSucc (res) {
+      console.log("11111111111");
+      console.log(res);
+      res = res.data
+      if (res.ret && res.data) {
+        const data = res.data
+
+        this.city = data.city
+        this.swiperList = data.swiperList
+        this.iconList = data.iconList
+        this.recommendList = data.recommendList
+      }
+    }
   }
 }
 </script>
