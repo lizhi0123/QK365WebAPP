@@ -44,7 +44,8 @@ export default {
   data (){
     return {
         clientWidth:'',
-        clientHeight:''
+        clientHeight:'',
+        newsList: []
     }
   },
   mounted (){
@@ -55,28 +56,27 @@ export default {
     },
     methods:{
        getHomeInfo () {
-
-        // axios.get('http://v.juhe.cn/toutiao/index?type=top&key=f1db1cefce44c93b2549b592a7fe6039')
-        //   .then(this.getHomeInfoSucc);
-
           var param = {type: 'top',
           key:"f1db1cefce44c93b2549b592a7fe6039"};
-// http://v.juhe.cn/toutiao/index
           axios.get('/toutiao/index',{ params: param }
           ).then(this.getHomeInfoSucc);
     },
     getHomeInfoSucc (res) {
-      console.log("11111111111");
-      console.log(res);
       res = res.data
-      if (res.ret && res.data) {
-        const data = res.data
+      var reason = res.reason;
+      console.log("reason reason");
+      console.log(reason);
+      
+      var result = res.result;
+      
 
-        this.city = data.city
-        this.swiperList = data.swiperList
-        this.iconList = data.iconList
-        this.recommendList = data.recommendList
-      }
+      var resultData = result.data;
+
+       console.log("resultData resultData");
+      console.log(resultData);
+
+      this.newsList = resultData;
+      
     }
   }
 }
