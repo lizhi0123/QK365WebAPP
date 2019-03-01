@@ -1,5 +1,5 @@
 <template>
- <div class="container-warp" ref="containerWarp">
+ <div id="template_contentDiv">
     <home-head-nav> </home-head-nav>
     <div class="container-scroll">
       <home-swiper></home-swiper>
@@ -75,19 +75,14 @@ export default {
 
 <style lang="stylus" scoped>
 @import '~@/assets/styles/varibles.styl'
-.container-warp
-    // width: 100%
-    // height: 100%
-    background-color: $bgColor
-    color: $darkTextColor
-    .container-scroll
-        // position: absolute
-        top: $navHeight
-        bottom: 0rem
-        left: 0rem
-        right: 0rem
-        .divSpace
-          width 100%
-          height 0.2rem
-          background-color lightgray
+  .container-scroll
+      // position: absolute
+      top: $navHeight
+      bottom: 0rem
+      left: 0rem
+      right: 0rem
+      .divSpace
+        width 100%
+        height 0.2rem
+        background-color lightgray
 </style>
