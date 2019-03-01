@@ -43,8 +43,8 @@ export default {
   },
   data (){
     return {
-        clientWidth:'',
-        clientHeight:'',
+        // clientWidth:'',
+        // clientHeight:'',
         newsList: []
     }
   },
@@ -76,8 +76,8 @@ export default {
 <style lang="stylus" scoped>
 @import '~@/assets/styles/varibles.styl'
 .container-warp
-    width: 100%
-    height: 100%
+    // width: 100%
+    // height: 100%
     background-color: $bgColor
     color: $darkTextColor
     .container-scroll
