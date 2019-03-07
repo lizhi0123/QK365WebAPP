@@ -2,6 +2,7 @@
  <div id="template_contentDiv">
     <home-head-nav> </home-head-nav>
     <div class="container-scroll">
+      <div class="navPlaceHolder"> </div>
       <home-swiper></home-swiper>
       <home-icons></home-icons>
       <div class="divSpace"> </div>
@@ -80,6 +81,8 @@ export default {
       bottom: 0rem
       left: 0rem
       right: 0rem
+      .navPlaceHolder
+        height:1rem
       .divSpace
         width 100%
         height 0.2rem
