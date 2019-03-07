@@ -5,7 +5,6 @@
             <div class="topText-title"> 热门房源 </div>
             <div class="topText-detail">青客，陪你开始与这座城市的故事</div>
         </div>
-        <!-- 列表 -->
         <div class="aRoom" v-for="roomItem of list" :key="roomItem.id">
             <img class="roomList-img" :src="roomItem.thumbnail_pic_s" />
             <div class="aRoom_title">{{roomItem.title}}
@@ -58,6 +57,7 @@ export default {
 
 <style lang="stylus" scoped="">
 .topContent
+    position: relative
     left:0;
     right: 0
     height:1.2rem
@@ -72,6 +72,7 @@ export default {
     .topText-title
         position: relative;
         left:0.2rem
+        width:1.5rem
         top: -0.1rem;
         height:0.5rem
         line-height 0.5rem
@@ -79,6 +80,7 @@ export default {
         position:relative
         left:0.2rem
         top:-0.1rem
+        width:4rem
         height:0.5rem
         line-height 0.5rem
         font-size 8pt;

@@ -76,7 +76,6 @@ export default {
 <style lang="stylus" scoped>
 @import '~@/assets/styles/varibles.styl'
   .container-scroll
-      // position: absolute
       top: $navHeight
       bottom: 0rem
       left: 0rem
